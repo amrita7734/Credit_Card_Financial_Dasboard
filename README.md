@@ -15,10 +15,11 @@ This project sets up a SQL database to manage credit card data and customer deta
 
 ## 📂 Data Structure
 
-### **'cc_detail' Table**:</br>
-- **Card Details**: Includes client number, card type, annual fees, credit limits, and transaction amounts.</br>
-### **'cust_detail' Table**:</br> 
-- **Customer Information**: Stores customer age, gender, education, marital status, income, and satisfaction scores.</br>
+### `cc_detail` Table:
+- **Card Details**: Includes client number, card type, annual fees, credit limits, and transaction amounts.
+
+### `cust_detail` Table:
+- **Customer Information**: Stores customer age, gender, education, marital status, income, and satisfaction scores.
 
 ## 🚀 How to Use
 
