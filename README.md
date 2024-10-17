@@ -8,16 +8,16 @@ This project sets up a SQL database to manage credit card data and customer deta
 
 • **Create Database**: We begin by creating a dedicated database called ccdb. </br>
 • **Data Tables**: Two tables manage the credit card and customer data: </br>
--  ‣ *'cc_detail'*: Contains information like card category, transaction amounts, and utilization. </br>
--  ‣ *'cust_detail'*: Stores customer demographic information, income, and satisfaction scores.</br>
+  ‣ *'cc_detail'*: Contains information like card category, transaction amounts, and utilization. </br>
+  ‣ *'cust_detail'*: Stores customer demographic information, income, and satisfaction scores.</br>
 • **Data Import from CSV**: The project imports data using the COPY command, making it simple to populate the tables with data from CSV files.</br>
 • **Error Handling**: Includes error management for date format inconsistencies by adjusting the PostgreSQL datestyle.</br>
 
 ## 📂 Data Structure
 
-### **'cc_detail Table'**:</br>
+### **'cc_detail' Table**:</br>
 - **Card Details**: Includes client number, card type, annual fees, credit limits, and transaction amounts.</br>
-### **'cust_detail Table'**:</br> 
+### **'cust_detail' Table**:</br> 
 - **Customer Information**: Stores customer age, gender, education, marital status, income, and satisfaction scores.</br>
 
 ## 🚀 How to Use
